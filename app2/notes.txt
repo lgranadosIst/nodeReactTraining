@@ -1,0 +1,45 @@
+C:\Users\lgranados>npm --version
+C:\Users\lgranados>cd C:\Isthmus\nodeReactTraining
+C:\Isthmus\nodeReactTraining>mkdir app2
+C:\Isthmus\nodeReactTraining>cd app2
+
+C:\Isthmus\nodeReactTraining\app2>npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (app2)
+version: (1.0.0)
+description: Aplicacion de prueba #2
+entry point: (index.js)
+test command:
+git repository:
+keywords:
+author: Luis Granados
+license: (ISC)
+About to write to C:\Isthmus\nodeReactTraining\app2\package.json:
+
+{
+  "name": "app2",
+  "version": "1.0.0",
+  "description": "Aplicacion de prueba #2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Luis Granados",
+  "license": "ISC"
+}
+
+
+Is this OK? (yes)
+
+C:\Isthmus\nodeReactTraining\app2>code .
+
+C:\Isthmus\nodeReactTraining\app2>
