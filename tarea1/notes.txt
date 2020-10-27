@@ -1,0 +1,8 @@
+C:\Users\lgranados>cd C:\Isthmus\nodeReactTraining
+C:\Isthmus\nodeReactTraining>mkdir tarea1
+C:\Isthmus\nodeReactTraining>cd tarea1
+C:\Isthmus\nodeReactTraining\tarea1>npm init
+
+PS C:\Isthmus\nodeReactTraining\tarea1> npm install mysql
+PS C:\Isthmus\nodeReactTraining\tarea1> node index.js
+
