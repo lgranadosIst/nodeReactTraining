@@ -1,0 +1,20 @@
+C:\Users\lgranados>cd C:\Isthmus\nodeReactTraining
+C:\Isthmus\nodeReactTraining>mkdir ejercicio3
+C:\Isthmus\nodeReactTraining>cd ejercicio3
+C:\Isthmus\nodeReactTraining\ejercicio3>npm init
+
+PS C:\Isthmus\nodeReactTraining\ejercicio3> npm i express
+package.json: "main": "app.js",
+var express = require("express");
+var app = express();
+const port = 3000
+
+app.get('/',(req, res) =>{
+    res.send('Hellow word')
+})
+
+ app.listen(port, () =>{
+    console.log(`Example app listening al http://localhost:${port}`);
+ });
+
+PS C:\Isthmus\nodeReactTraining\ejercicio3> nmode app.js
