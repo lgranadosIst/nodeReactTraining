@@ -1,0 +1,46 @@
+Microsoft Windows [Version 10.0.19041.572]
+(c) 2020 Microsoft Corporation. All rights reserved.
+
+C:\Users\lgranados>cd C:\Isthmus\nodeReactTraining
+C:\Isthmus\nodeReactTraining>mkdir tarea2
+C:\Isthmus\nodeReactTraining>cd tarea2
+C:\Isthmus\nodeReactTraining\tarea2>
+
+PS C:\Isthmus\nodeReactTraining\tarea2> npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (tarea2)
+version: (1.0.0)
+description: Estructura de archivos y endpoint para sumar numeros
+entry point: (index.js)
+test command:
+git repository:
+keywords:
+author: Luis Granados
+license: (ISC)
+About to write to C:\Isthmus\nodeReactTraining\tarea2\package.json:
+
+{
+  "name": "tarea2",
+  "version": "1.0.0",
+  "description": "Estructura de archivos y endpoint para sumar numeros",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Luis Granados",
+  "license": "ISC"
+}
+
+
+Is this OK? (yes)
+PS C:\Isthmus\nodeReactTraining\tarea2> 
+PS C:\Isthmus\nodeReactTraining\tarea2> npm i express

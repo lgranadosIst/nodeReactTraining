@@ -1,0 +1,15 @@
+{
+  "name": "tarea2",
+  "version": "1.0.0",
+  "description": "Estructura de archivos y endpoint para sumar numeros",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Luis Granados",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {}
+}
