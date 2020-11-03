@@ -44,3 +44,27 @@ About to write to C:\Isthmus\nodeReactTraining\tarea2\package.json:
 Is this OK? (yes)
 PS C:\Isthmus\nodeReactTraining\tarea2> 
 PS C:\Isthmus\nodeReactTraining\tarea2> npm i express
+PS C:\Isthmus\nodeReactTraining\tarea2> node app.js  
+Results:
+PS C:\Isthmus\nodeReactTraining\tarea2> node app.js  
+Operations app listening at http://localhost:3000
+express deprecated req.param(name): Use req.params, req.body, or req.query instead routes\sum_routes.js:5:20
+express deprecated req.param(name): Use req.params, req.body, or req.query instead routes\sum_routes.js:6:20
+El resultado de sumar 1 + 8  = 9
+express deprecated req.param(name): Use req.params, req.body, or req.query instead routes\substract_routes.js:5:20
+express deprecated req.param(name): Use req.params, req.body, or req.query instead routes\substract_routes.js:6:20
+El resultado de restar 11 - 8  = 3
+express deprecated req.param(name): Use req.params, req.body, or req.query instead routes\multiply_routes.js:5:20
+express deprecated req.param(name): Use req.params, req.body, or req.query instead routes\multiply_routes.js:6:20
+El resultado de multiplicar 5 * 9  = 45
+express deprecated req.param(name): Use req.params, req.body, or req.query instead routes\divide_routes.js:5:20
+express deprecated req.param(name): Use req.params, req.body, or req.query instead routes\divide_routes.js:6:20
+El resultado de dividir 50 / 10  = 5
+
+Postman:
+http://localhost:3000/sumar/1/8
+http://localhost:3000/restar/11/8
+http://localhost:3000/multiplicar/5/9
+http://localhost:3000/dividir/50/10
+
+
