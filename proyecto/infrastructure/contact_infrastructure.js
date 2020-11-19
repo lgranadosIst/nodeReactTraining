@@ -12,9 +12,9 @@ async function getAllContacts() {
       result = await db.query(connection, sms.selectAllContacts);
   } catch (err) {
     result = getError(err);
+    console.log(JSON.stringify(result));
   } finally {
     await db.close(connection);
-    console.log(JSON.stringify(result));
     return JSON.stringify(result);
   }
 }
@@ -31,9 +31,9 @@ async function selectContact(id) {
 
   } catch (err) {
     result = getError(err);
+    console.log(JSON.stringify(result));
   } finally {
     await db.close(connection);
-    console.log(JSON.stringify(result));
     return JSON.stringify(result);
   }
 }
